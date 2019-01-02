@@ -1,10 +1,10 @@
 import React from 'react';
-import Green from './Green';
+import Purple from './Purple';
 
 const Blue = () => (
     <div className='blue'>
         <p>We don't need data in Blue!</p>
-        <Green />
+        <Purple />
     </div>
 );
 
