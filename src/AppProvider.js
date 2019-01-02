@@ -4,7 +4,10 @@ const AppContext = React.createContext();
 
 export class AppProvider extends Component {
     state = {
-        number: 10
+        number: 10,
+        inc: () => {
+            this.setState({number: this.state.number + 1})
+        }
     };
 
     render() {
