@@ -17,10 +17,15 @@
   padding: 2em;
 }
 
-.red {
-  background-color: #ff514c;
+.yellow {
+  background-color: yellow;
+  padding: 2em;
   margin-top: 5em;
   margin-right: 15em;
   margin-left: 25em;
+}
+
+.red {
+  background-color: #ff514c;
   padding: 2em;
 }
