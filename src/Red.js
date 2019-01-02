@@ -8,7 +8,7 @@ export default class Red extends Component {
             <AppProvider>
                 <div className='red'>
                     <div>
-                        <p>Here is the value from Red: </p>
+                        <p>Introduce our provider. Here is the value from Red: </p>
                         <AppContext.Consumer>
                             {(context) => context.number}
                         </AppContext.Consumer>
